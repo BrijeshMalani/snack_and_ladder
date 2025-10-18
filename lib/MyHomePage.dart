@@ -39,8 +39,8 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   var name = 'assets/images/custom.png';
-  var boardName1 = 'assets/images/board.png';
-  var boardName2 = 'assets/images/custom.png';
+  var boardName1 = 'assets/images/custom.png';
+  var boardName2 = 'assets/images/board.png';
   bool changeBoard = false;
 
   int order(int n) {
@@ -123,8 +123,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       )
                     : isComputer
                     ? SizedBox(
-                        // height: 100,
-                        // width: 500,
+                        height: 100,
+                        width: 500,
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           crossAxisAlignment: CrossAxisAlignment.center,

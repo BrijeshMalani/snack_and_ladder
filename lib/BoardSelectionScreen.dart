@@ -115,7 +115,7 @@ class _BoardSelectionScreenState extends State<BoardSelectionScreen>
                         const SizedBox(height: 20),
                         // Board 1 - Classic Board
                         _buildBoardOption(
-                          imagePath: 'assets/images/board.png',
+                          imagePath: 'assets/images/custom.png',
                           title: 'Classic Board',
                           subtitle: 'Traditional snakes and ladders design',
                           color: Colors.green,
@@ -125,7 +125,7 @@ class _BoardSelectionScreenState extends State<BoardSelectionScreen>
 
                         // Board 2 - Custom Board
                         _buildBoardOption(
-                          imagePath: 'assets/images/custom.png',
+                          imagePath: 'assets/images/board.png',
                           title: 'Custom Board',
                           subtitle: 'Modern and colorful design',
                           color: Colors.orange,
